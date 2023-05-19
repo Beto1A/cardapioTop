@@ -1,0 +1,96 @@
+header{
+    background-color: rgb(147, 188, 250);    color: rgb(8, 8, 8);
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0px 1cm;
+    border: solid 1px black;
+
+}
+
+footer{
+    background-color: rgb(147, 188, 250);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 1cm;
+    padding: 1cm;
+    border: solid 1px black;
+}
+
+section{
+    display: flex;
+    margin:  0cm 2cm;
+    
+    
+}
+
+.div1{
+    border: solid 1px black;
+    padding: 10px ;
+    margin: 20px;
+    
+
+}
+
+.div2{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 20px;
+   
+
+}
+
+.div3{
+    border: solid 1px black;
+    padding: 10px;
+    margin: 20px;
+    
+
+}
+
+img{
+    border: solid black 1px;
+    border-radius: 8px;
+    
+}
+
+div{
+    border-radius: 8px;
+    background-color: rgb(173, 203, 248);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(91, 151, 240);
+    font-size: 18px;
+    
+}
+p{
+    padding: 15px;
+}
+
+.div1:hover{
+   transform: scale(1.15);
+}
+
+.div2:hover{
+    transform: scale(1.15);
+ }
+
+ .div3:hover{
+    transform: scale(1.15);
+ }
+
+
+ @media(max-width:600px){
+
+section{
+    background-color: white;
+    display: flex ;
+    flex-direction: column;
+    
+}
+
+    
+ }
